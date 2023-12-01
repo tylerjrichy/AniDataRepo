@@ -20,6 +20,13 @@
         "habitat": "Antarctica",
         "average_lifespan": 15,
         "average_speed": 1
+      },
+      {
+        "name": "T-Rex",
+        "species": "Tyrannosaurus rex",
+        "habitat": "Forest",
+        "average_lifespan": 30,
+        "average_speed": 10
       }
     ] 
 }
