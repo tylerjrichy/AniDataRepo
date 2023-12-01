@@ -27,6 +27,13 @@
         "habitat": "Forest",
         "average_lifespan": 30,
         "average_speed": 10
+      },
+      {
+        "name": "Rhino",
+        "species": "Ceratotherium simum",
+        "habitat": "Savannah",
+        "average_lifespan": 45,
+        "average_speed": 31
       }
     ] 
 }
