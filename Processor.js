@@ -2,7 +2,7 @@
 //add an exit in animal selection (choice 2)?
 
 var fs = require('fs')
-var obj = JSON.parse(fs.readFileSync('/Users/trainee/Desktop/Animal_processor/animaldata.json'))
+var obj = JSON.parse(fs.readFileSync('/Users/trainee/Desktop/projects/Animal_processor2/animaldata.json'))
 var animals = obj.animals
 
 const readline = require("readline");
@@ -75,7 +75,7 @@ function calcA() {
     for (var i = 0; i < animals.length; i++) {
         lifeSum += animals[i].average_lifespan
     }
-    var avgLife = lifeSum / animals.length
+    var avgLife = (lifeSum / animals.length).toFixed(1)
     console.log("Average lifespan of all animals: " + avgLife + " years")
     menu()
 }
