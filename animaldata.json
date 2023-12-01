@@ -27,6 +27,13 @@
         "habitat": "Forest",
         "average_lifespan": 30,
         "average_speed": 10
+      },
+      {
+        "name": "Ostrich",
+        "species": "Struthio camelus",
+        "habitat": "Savannah",
+        "average_lifespan": 50,
+        "average_speed": 43
       }
     ] 
 }
